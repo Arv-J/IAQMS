@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.iaqms.me" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>IAQMS</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+
+<preference name="SplashScreen" value="screen"/>
+<preference name="SplashScreenDelay" value="10000"/>
+<preference name="ShowSplashScreenSpinner" value="false"/>
+<platform name="android">
+
+<icon src="www/img/icon3.jpg" />
+
+  <!-- you can use any density that exists in the Android project -->
+  <splash src="www/img/Poppins.png" density="land-hdpi"/>
+  <splash src="www/img/Poppins.png" density="land-ldpi"/>
+  <splash src="www/img/Poppins.png" density="land-mdpi"/>
+  <splash src="www/img/Poppins.png" density="land-xhdpi"/>
+
+  <splash src="www/img/Poppins.png" density="port-hdpi"/>
+  <splash src="www/img/Poppins.png" density="port-ldpi"/>
+  <splash src="www/img/Poppins.png" density="port-mdpi"/>
+  <splash src="www/img/Poppins.png" density="port-xhdpi"/>
+</platform>
+
+</widget>

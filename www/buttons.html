@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Buttons</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<style>
+ 
+    .image {
+       width: 65px;
+       height: 52px;
+    }
+   
+   </style>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Interface
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="buttons.html">
+                    <i class="fas fa-fw fa-list-alt"></i>
+                    <span>AirQ Categories</span>
+                </a>
+            </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Addons
+            </div>
+
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="charts.html">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>Developers</span></a>
+            </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <img class="image" src="img/Icon.png">
+                            </a>
+                            <!-- Dropdown - User Information -->
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-4 text-gray-800">INDOOR AQ INDEX</h1>
+
+                    <div class="row">
+
+                        <!--air q index-->
+
+                        <div class="col-lg-6">
+
+
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Categories</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p> Tap the button depends on Air Quality condition.
+                                    </p>
+
+                                        <!--Contents-->
+                                          
+                                        <div class="btn-group-vertical d-grid gap-2 col-12 mx-auto " >
+                                            <button type="button1" class="btn btn-success" type="btn" data-toggle="modal" data-target="#exampleModalCenter" >Excellent</button>
+                                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h5 class="modal-title" id="exampleModalLongTitle">Excellent</h5>
+                                                      </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Tips:<br><hr>
+                                                        - Air quality is in perfect condition, no need for precautions
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button1" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            <button type="button2" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter2" style="background-color: yellowgreen; border-color: yellowgreen;" >Fine</button>
+                                            <div class="modal fade" id="exampleModalCenter2" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">Fine</h5>
+                                                    </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Tips:<br><hr>
+                                                        - The air quality is still tolerable, you may continue your work.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button2" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <button type="button3" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter3" style="background-color: #ffff00; border-color: #ffff00;">Moderate</button>
+                                                <div class="modal fade" id="exampleModalCenter3" tabindex="-3" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Moderate</h5>
+                                                        </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Tips: <br><hr>
+                                                            - Buy indoor plants to freshen the air.<br>
+                                                            - Open airways such as windows and doors for better ventilation if the weather is good.<br>
+                                                            - Keep the area properly ventilated<br>
+                                                            - Keep it clean.<br>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                        <button type="button3" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+
+                                            <button type="button4" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter4">Poor</button>
+                                                <div class="modal fade" id="exampleModalCenter4" tabindex="-4" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Poor</h5>
+                                                        </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Tips:<br><hr>
+                                                            - Improved the area's ventilation.<br>
+                                                            - Use a natural ways opening the windows and the door if the weather is permits or good.<br>
+                                                            - Maintain the cleanliness of the area.<br>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                        <button type="button4" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+
+                                            <button type="button5" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter5"  style="background-color: lightcoral; border-color: lightcoral;" id="btn5">Very Poor</button>
+                                                <div class="modal fade" id="exampleModalCenter5" tabindex="-5" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Very Poor</h5>
+                                                        </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Tips:<br><hr>
+                                                            - Check for possible Oxygen and Acetylene gas leaks.<br>
+                                                            - Open airways such as windows and doors for better ventilation if the weather is good.<br>
+                                                            - Use the ventilation.<br>
+                                                            - Stop the Fabrication atleast 10-15 mins.<br>
+                                                            - Maintain the cleanliness of the area.<br>
+                                                            - Wear PPE.<br>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                        <button type="button5" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+
+                                            <button type="button5" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter6" >Severe</button>
+                                                <div class="modal fade" id="exampleModalCenter6" tabindex="-6" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Severe</h5>
+                                                        </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Tips:<br><hr>
+                                                            - Temporary stop the fabrication.<br>
+                                                            - Wear a mask and safety goggles.<br>
+                                                            - Wear PPE.<br>
+                                                            - Sanitize the area and leave the area<br>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                        <button type="button6" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+
+                                          </div>
+                                        <!--End of contents-->
+
+                                        
+
+                                </div>
+
+                                
+                            <div class="card-shadow mb-4">
+
+                                <div class="card-header">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-center">
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col" colspan="2">C02 Index</th>
+                                                <th scope="col" colspan="2">Categories</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td class="table-success" colspan="2">0-350</td>
+                                                <td class="table-success" colspan="2">Excellent</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: yellowgreen;" colspan="2">350-450</td>
+                                                <td style="background-color: yellowgreen;" colspan="2">Fine</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: #ffff00;"colspan="2">450-700</td>
+                                                <td style="background-color: #ffff00;" colspan="2">Moderate</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: orange;"colspan="2">700-1000</td>
+                                                <td style="background-color: orange;" colspan="2">Poor</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: lightcoral;" colspan="2">1000-2500</td>
+                                                <td style="background-color: lightcoral;" colspan="2">Very Poor</td>  
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: red;" colspan="2">2500-5000</td>
+                                                <td style="background-color: red; "colspan="2">Severe</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          </div>
+                                    </div>
+                            </div>
+
+                
+
+                            </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; IAQMS 2022</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+
+    <!-- Bootstrap core JavaScript-->
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+
+</body>
+
+</html>
